@@ -10,6 +10,9 @@ from aiogram.client.default import DefaultBotProperties
 from aiogram.types import Message
 from aiogram.filters import CommandStart
 
+from keep_alive import keep_alive
+keep_alive()
+
 dp = Dispatcher()
 
 
